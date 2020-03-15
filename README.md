@@ -21,3 +21,10 @@ This data has been manually retyped, so there might be errors.
 
 Also, the Robert Koch Institut announced that it changes how it collects its data on 2020-05-17.
 Subsequently, that day might see a drop in some numbers that does not actually correspond to a actual real world change in cases.
+
+## Similar projects
+
+There a some similar projects collecting COVID-19 case data with a different granularity or regional focus:
+
+* [Lower Saxony, Germany](https://github.com/codeforosnabrueck/COVID-19-NDS/)
+
