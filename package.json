@@ -1,8 +1,16 @@
 {
-  "name": "coronaGermanyData",
+  "name": "corona-germany-data",
   "version": "1.0.0",
   "description": "CSV data of confirmed COVID-19 cases by Robert Koch Institut on a state level",
   "main": "index.js",
   "author": "Michael Große <mic.grosse@googlemail.com>",
-  "license": "CC0"
+  "license": "CC0-1.0",
+  "scripts": {
+    "buildTimeSeries": "node ./scripts/createTimeSeries.js"
+  },
+  "devDependencies": {
+    "csv-writer": "^1.6.0",
+    "neat-csv": "^5.2.0",
+    "prettier": "1.19.1"
+  }
 }
