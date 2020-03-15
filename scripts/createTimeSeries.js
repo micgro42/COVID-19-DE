@@ -10,7 +10,7 @@ fs.readdir(dailyReportsPath, async (err, dailyReports) => {
     return;
   }
 
-  // remove template file DD-MM-YYYY.csv
+  // remove template file YYYY-MM-DD.csv
   dailyReports.pop();
 
   let confirmed = null;
@@ -80,6 +80,5 @@ function initializeData(dailyData) {
 
 function getDateFromFilename(filename) {
   const [basename] = filename.split(".");
-  const [day, month, year] = basename.split("-");
-  return [year, month, day].join("-");
+  return basename;
 }
