@@ -55,7 +55,7 @@ fs.readdir(dailyReportsPath, async (err, dailyReports) => {
 
 function writeTimeSeries(title, dates, data) {
   const confirmedWriter = createCsvWriter({
-    path: `time_series/time-series-_19-covid-${title}.csv`,
+    path: `time_series/time-series_19-covid-${title}.csv`,
     header: [
       { id: "state", title: "State" },
       ...dates.sort().map(date => ({ id: date, title: date }))
