@@ -1,6 +1,6 @@
 State,Confirmed,Deaths
-"Baden-Württemberg",,0
-Bayen,,0
+"Baden-Württemberg",,
+Bayen,,
 Berlin,,0
 Brandenburg,,0
 Bremen,,0
@@ -8,10 +8,10 @@ Hamburg,,0
 Hessen,,0
 "Mecklenburg-Vorpommern",,0
 "Niedersachsen",,0
-"Nordrhein-Westfalen",,0
+"Nordrhein-Westfalen",,
 "Rheinland-Pfalz",,0
 Saarland,,0
 Sachsen,,0
-"Sachsen-Anhalt",0,0
+"Sachsen-Anhalt",,0
 "Schleswig-Holstein",,0
 "Thüringen",,0
