@@ -1,0 +1,8 @@
+{
+  "name": "coronaGermanyData",
+  "version": "1.0.0",
+  "description": "CSV data of confirmed COVID-19 cases by Robert Koch Institut on a state level",
+  "main": "index.js",
+  "author": "Michael Große <mic.grosse@googlemail.com>",
+  "license": "CC0"
+}
