@@ -27,4 +27,5 @@ Subsequently, that day might see a drop in some numbers that does not actually c
 There a some similar projects collecting COVID-19 case data with a different granularity or regional focus:
 
 * [Lower Saxony, Germany](https://github.com/codeforosnabrueck/COVID-19-NDS/)
+* [Thuringia, Germany](https://github.com/micb25/corona-jena)
 
