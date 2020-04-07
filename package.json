@@ -6,10 +6,12 @@
   "author": "Michael Große <mic.grosse@googlemail.com>",
   "license": "CC0-1.0",
   "scripts": {
-    "buildTimeSeries": "node ./scripts/createTimeSeries.js"
+    "buildTimeSeries": "node ./scripts/createTimeSeries.js",
+    "scrapeData": "node ./scripts/scrapeData.js"
   },
   "devDependencies": {
     "csv-writer": "^1.6.0",
+    "jsdom": "^16.2.2",
     "neat-csv": "^5.2.0",
     "prettier": "1.19.1"
   }
