@@ -40,7 +40,7 @@ function parseHTML(html){
 
   const text = data.map( stateData => stateData.join(',')).join("\n");
 
-  fs.writeFile(`daily_reports/${dateString}.csv`, text, 'utf8', () => console.log('done'))
+  fs.writeFile(`daily_reports/${dateString}.csv`, text, 'utf8', () => console.log(`Data written:\n${dateString}\n${text}\n`))
 }
 
 function extractDateAsString(html) {
