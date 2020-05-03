@@ -23,7 +23,7 @@ function parseHTML(html){
   const dom = new JSDOM(html);
   const data = [ [ 'State','Confirmed','Deaths' ] ];
 
-  dom.window.document.querySelectorAll('tbody tr').forEach(
+  dom.window.document.querySelectorAll('#main tbody tr').forEach(
     (tr) => {
       const statename = tr.children[0].textContent
         .replace(/[^\wüöä-]/ug, '')
